@@ -15,7 +15,7 @@ html {
   }
 
   .panels {
-    min-height: 86vh;
+    min-height: 80vh;
     overflow: hidden;
     display: flex;
     cursor: pointer;
@@ -101,7 +101,7 @@ html {
     text-transform: uppercase;
     font-family: 'Amatic SC', cursive;
     text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-    font-size: 2em;
+    font-size: 1.5em;
   }
   
   .panel p:nth-child(2) {
@@ -110,12 +110,12 @@ html {
 
   .panel.open {
     flex: 5;
-    font-size: 80px;
+    font-size: 1.5em;
     color: red;
   }
 
   .header {
-    font-size: 2em;
+    font-size: 1em;
     text-align: center;
     pointer-events: none;
   }
@@ -128,16 +128,14 @@ html {
     position: absolute;
     right: 2em;
     padding: 15px 0;
-    font-size: 3em;
+    font-size: 1em;
     pointer-events: none;
   }
 
   #github {
     position: absolute;
     left: 2em;
-    padding: 35px 0;
-    height: 100px;
-    width: 100px;
+    padding: 15px 0;
   }
 
   .icon-style {
